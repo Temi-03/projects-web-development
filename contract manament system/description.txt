@@ -1,2 +1,2 @@
 this is was my exam submisstion for my module it involse me using node.js and mongodb
-i created a database to carryout CRUD activity for a contracts with a landlord and tennant  
+i created a database to carryout CRUD activity for a contracts with a landlord and tennant.  
