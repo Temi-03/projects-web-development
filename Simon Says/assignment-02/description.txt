@@ -1,0 +1,5 @@
+this is my attempt of re-creating the  orginal simon says game
+the purpose of this was help better my understanding of javascript.
+Altough it does not fully work as it is intended to the orginal game 
+it has improve my knowledge greatly and i know what i can do to further my learning.
+I  intended to go back to it and try re-create the game again :).

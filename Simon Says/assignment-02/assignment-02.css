@@ -1,0 +1,121 @@
+
+            
+            body{
+                position: center;
+                
+                font-family: "Orbitron", sans-serif;
+                
+            }
+            button{
+                font-family: "Orbitron", sans-serif;;
+            }
+            
+        
+            
+            .black{
+                height: 300px;
+                width: 300px;
+                background-color: black;
+                border-radius: 50%;
+                position: relative;
+               top:200px;
+               left:500px;
+            }
+            .yellow{
+                height: 120px;
+                width: 120px;
+                background-color:yellow;
+                border-radius: 50%;
+                position: relative;
+               top:100px;
+               left:445px;
+               outline: 10px solid black
+
+
+            }
+            .blue{
+                height: 120px;
+                width: 120px;
+                background-color:rgb(61, 133, 206);
+                border-radius: 50%;
+                position: relative;
+                top:97px;
+                left:600px;
+                outline: 10px solid black
+
+
+            }
+            .green{
+                height: 120px;
+                width: 120px;
+                background-color:green;
+                border-radius: 50%;
+                position: relative;
+                bottom:130px;
+                left:215px;
+                outline: 10px solid black
+
+
+            }
+            .red{
+                height: 120px;
+                width: 120px;
+                background-color:red;
+                border-radius: 50%;
+                position: relative;
+                bottom: 127px;
+                left:350px;
+                animation: glow .5s infinite  alternate;
+
+                outline: 10px solid black
+                
+            }
+            .square {
+                height: 50px;
+                width: 50px;
+                background-color: gray;
+                margin: 4px;
+                margin-top:90px ;
+                border-radius: 10px
+            
+            }
+            
+            .starter {
+                height: 50px;
+                width: 100px;
+                background-color: gray ;
+                cursor: pointer;
+                border: 1500px;
+                margin:4px;
+                margin-top:90px ;
+                border-radius: 10px
+            
+               
+            
+            
+            }
+            .circle {
+                height: 25px;
+                 width: 25px;
+                background-color: red;
+                 border-radius: 50%;
+                display: inline-block;
+                margin-left:140px ;
+                outline: 50px;
+                scale: 50%;
+                
+                
+            }
+            .button-container
+        {
+          display:flex;
+          justify-content: center;
+          align-items: center; 
+          height: 170px;
+          width: 100; 
+          border: 100px;
+          
+          
+        }
+            
+           
