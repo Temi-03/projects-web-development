@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hello</title>
+    </head>
+    <body>
+        <h2>Create User</h2>
+    <form>
+        <label for="title">Title *</label>
+        <select id="title" name="title" required>
+            <option value="">Select a title</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Miss">Miss</option>
+            <option value="Dr.">Dr.</option>
+            <option value="Other.">Other.</option>
+        </select><br>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName"><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+<h1> Address Info</h1>
+<label for="AddressLine1">Address Line 1 *</label>
+        <input type="text" id="AddressLine1" name="AddressLine1" required><br>
+
+        <label for="AddressLine2">Address Line 2</label>
+        <input type="text" id="AddressLine2" name="AddressLine2"><br>
+
+        <label for="Town">Town *</label>
+        <input type="text" id="Town" name="Town" required><br>
+
+        <label for="CountyCity">County/City *</label>
+        <input type="text" id="CountyCity" name="CountyCity" required><br>
+
+        <label for="Eircode">Eircode *</label>
+        <input type="text" id="Eircode" name="Eircode" required><br>
+
+        <button type="button" onclick="createUser()">Create User</button>
+    </form>
+    <h2>Retrieve User Details</h2>
+    <form id="retrieveUserForm">
+        <label for="searchFirstName">Enter First Name:</label>
+        <input type="text" id="searchFirstName" name="searchFirstName">
+        <button type="submit">Retrieve User</button>
+    </form>
+    <div id="userDetails"></div>
+    </body>
+    <script>
+        var ajax = new XMLHttpRequest();
+        var method ="GET";
+        var url = "rt.js";
+        var asynchronous = true;
+        ajax.open(method,url,asynchronous);
+        ajax.onreadystatechange = function()
+        {
+            if(this.readystate == 4 && this.status == 200)
+            {
+                alert(this.responseText);
+            }
+        }
+    </script>
+</html>
