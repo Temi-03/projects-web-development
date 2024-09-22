@@ -1,0 +1,4 @@
+this is my first assignment using Html CSS and JavaScript
+with  this project i intended to create a food Pyramid that you can count 
+how much your intake was on each level and record the date it was done at.
+I learned how to create different shapes and make the site visually apealing.
