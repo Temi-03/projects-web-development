@@ -2,3 +2,4 @@ For this assignment i recreated a grading table.
 its purpose is to take in a set of grade from student and calculate their
 avaerage gade interchanging bettween different results allowing ajustments to be made .
 it also highlights what assignment are missing and if they have failed of not 
+ 
